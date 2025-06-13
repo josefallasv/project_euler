@@ -1,9 +1,9 @@
 #Problem 1: Multiples of 3 or 5
 #Link to problem: https://projecteuler.net/problem=1
 
-#Create empty array for multiples and variable for sum of multiples
-multiples = []
-multiples_sum = 0
+#Create empty list for multiples and variable for sum of multiples
+multiples=[]
+multiples_sum=0
 
 #Find multiples of 3 or 5 below 1000
 for i in range(1,1000):
