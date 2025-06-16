@@ -4,6 +4,7 @@
 number=600851475143
 largest_prime_factor=0
 
+#Check whether the input number is prime; return True if it is, otherwise return False
 def prime(input: int):
     factors=[]
     for i in range(1,input+1):
@@ -14,6 +15,7 @@ def prime(input: int):
     else:
         return False
     
+#Find all prime factors of input number and store longer prime factor in variable
 for i in range(2,number):
     if number%i==0 and prime(i):
         largest_prime_factor=i
